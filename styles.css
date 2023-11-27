@@ -32,19 +32,28 @@ main {
 
 .step {
     display: flex;
-    gap: 3%;
+    gap: 10%;
     margin: 3%;
     font-size: 20pt;
+    /* border: 3px red solid; */
 }
 
 .tip {
     color: #0B8109;
 }
 
+.pic {
+    width: 400px;
+    height: 225px;
+    background-color: black;
+}
 
-img {
+
+.pic img {
+    object-fit: fill;
     /* max-width: 100%; */
-    /* height: auto; */
+    width: 400px;
+    /* height: 225px; */
 }
 
 #conclusion {

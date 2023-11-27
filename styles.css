@@ -1,15 +1,59 @@
 body {
     background-color: #CDEAFB;
     font-family: 'Poppins', sans-serif;
-    width: 80%;
-    margin: auto;
+    
 }
 
 header {
     background-color: #0B8109;
+    padding: 2%;;
 }
 
+h1 {
+    font-size: 48pt;
+    text-align: center;
+    font-weight: normal;
+    color: #CDEAFB;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+#intro {
+    font-size: 18pt;
+}
+
+.step {
+    display: flex;
+    gap: 3%;
+    margin: 3%;
+    font-size: 20pt;
+}
 
 .tip {
     color: #0B8109;
 }
+
+
+img {
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+
+#conclusion {
+    font-size: 20pt;
+    margin: auto;
+    width: 100%;
+}
+
+#lastPic {
+    width: 1000px;
+}
+

@@ -1,3 +1,15 @@
+body {
+    background-color: #CDEAFB;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
 header {
     background-color: #0B8109;
+}
+
+
+.tip {
+    color: #0B8109;
 }

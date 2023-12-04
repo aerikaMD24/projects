@@ -72,3 +72,14 @@ footer {
     padding: 2%;
 }
 
+iframe {
+    width: 60%;
+    margin:auto;
+    display: block;
+}
+
+footer p {
+    color: #FFFEFE;
+    text-align: center;
+    font-size: 18pt;;
+}

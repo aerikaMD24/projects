@@ -1,19 +1,23 @@
 body {
-    background-color: #CDEAFB;
+    background-color: #FFFEFE;
     font-family: 'Poppins', sans-serif;
     
 }
 
 header {
-    background-color: #0B8109;
-    padding: 2%;;
+    background-color: #E35C5C;
+    padding: 2%;
 }
 
 h1 {
     font-size: 48pt;
     text-align: center;
     font-weight: normal;
-    color: #CDEAFB;
+    color:#FFFEFE
+}
+
+h2 {
+    margin-top: 0;
 }
 
 h3 {
@@ -32,14 +36,15 @@ main {
 
 .step {
     display: flex;
-    gap: 10%;
-    margin: 3%;
+    gap: 7%;
+    margin: 1%;
     font-size: 20pt;
     /* border: 3px red solid; */
 }
 
+
 .tip {
-    color: #0B8109;
+    color: #E35C5C;
 }
 
 
@@ -54,7 +59,16 @@ main {
     width: 100%;
 }
 
+span {
+    color:#E35C5C;
+}
+
 #lastPic {
     width: 1000px;
+}
+
+footer {
+    background-color: #E35C5C;
+    padding: 2%;
 }
 
